@@ -1,21 +1,18 @@
-[tool.black]
-line-length = 120
-target-version = ['py38']
-include = '\.pyi?$'
-exclude = '''
-(
-  /(
-      \.eggs         # exclude a few common directories in the
-    | \.git          # root of the project
-    | \.hg
-    | \.mypy_cache
-    | \.tox
-    | \.venv
-    | _build
-    | buck-out
-    | build
-    | dist
-    | libs           # we have no obligation to format external libraries
-  )/
-)
-'''
+[tool.poetry]
+name = "openapi-schema-pydantic2"
+version = "0.0.1"
+description = ""
+authors = ["Vladimir Nikolaev <vladimir.nikolaev@novakidschool.com>"]
+readme = "README.md"
+packages = [{ include = "openapi_schema_pydantic2"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pydantic = "2.8.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

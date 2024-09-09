@@ -1,4 +1,4 @@
-from openapi_schema_pydantic import Header, MediaType, Parameter, PathItem, Reference, Schema, SecurityScheme
+from openapi_schema_pydantic2 import Header, MediaType, Parameter, PathItem, Reference, Schema, SecurityScheme
 
 
 def test_header_alias():

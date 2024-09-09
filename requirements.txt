@@ -1,9 +1,0 @@
-# project dependencies
-pydantic==2.8.2
-
-# PyPi
-twine==3.8.0
-
-# dev dependencies
-# black
-# pytest

@@ -1,6 +1,6 @@
 from pydantic.v1 import AnyUrl
 
-from openapi_schema_pydantic import SecurityScheme
+from openapi_schema_pydantic2 import SecurityScheme
 
 
 def test_security_scheme_issue_5():

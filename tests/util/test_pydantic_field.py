@@ -4,7 +4,7 @@ from typing import Union
 from pydantic.v1 import BaseModel, Field
 from pydantic.v1.schema import schema
 
-from openapi_schema_pydantic import (
+from openapi_schema_pydantic2 import (
     OpenAPI,
     Info,
     PathItem,
@@ -16,7 +16,7 @@ from openapi_schema_pydantic import (
     Reference,
     Discriminator,
 )
-from openapi_schema_pydantic.util import PydanticSchema, construct_open_api_with_schema_class
+from openapi_schema_pydantic2.util import PydanticSchema, construct_open_api_with_schema_class
 
 
 # This tests failing after pydantic v1.10, but its ok for us, because our monolith always used 1.10+ and all was fine

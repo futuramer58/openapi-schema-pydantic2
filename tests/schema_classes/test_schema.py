@@ -3,7 +3,7 @@ import logging
 from pydantic.v1 import BaseModel, Extra
 from pydantic.v1.schema import schema
 
-from openapi_schema_pydantic import Schema, Reference
+from openapi_schema_pydantic2 import Schema, Reference
 
 
 def test_schema():

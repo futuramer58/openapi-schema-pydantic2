@@ -2,8 +2,8 @@ import logging
 
 from pydantic.v1 import BaseModel, Field
 
-from openapi_schema_pydantic import Info, MediaType, OpenAPI, Operation, PathItem, Reference, RequestBody, Response
-from openapi_schema_pydantic.util import PydanticSchema, construct_open_api_with_schema_class
+from openapi_schema_pydantic2 import Info, MediaType, OpenAPI, Operation, PathItem, Reference, RequestBody, Response
+from openapi_schema_pydantic2.util import PydanticSchema, construct_open_api_with_schema_class
 
 
 def test_construct_open_api_with_schema_class_1():
