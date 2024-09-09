@@ -1,7 +1,7 @@
 import logging
 
-from pydantic import BaseModel, Extra
-from pydantic.schema import schema
+from pydantic.v1 import BaseModel, Extra
+from pydantic.v1.schema import schema
 
 from openapi_schema_pydantic import Schema, Reference
 

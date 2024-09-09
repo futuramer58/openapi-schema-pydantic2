@@ -1,4 +1,4 @@
-from pydantic import AnyUrl
+from pydantic.v1 import AnyUrl
 
 from openapi_schema_pydantic import SecurityScheme
 

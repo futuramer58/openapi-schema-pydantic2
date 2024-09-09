@@ -1,6 +1,6 @@
 import logging
 
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 
 from openapi_schema_pydantic.v3.v3_0_3 import (
     Info,

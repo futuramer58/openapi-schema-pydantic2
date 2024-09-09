@@ -1,6 +1,6 @@
 from typing import Dict, Optional
 
-from pydantic import Field
+from pydantic.v1 import Field
 
 from openapi_schema_pydantic import OpenAPI, Operation, PathItem
 

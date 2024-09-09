@@ -1,8 +1,8 @@
 import logging
 from typing import Any, List, Set, Type, TypeVar
 
-from pydantic import BaseModel
-from pydantic.schema import schema
+from pydantic.v1 import BaseModel
+from pydantic.v1.schema import schema
 
 from . import Components, OpenAPI, Reference, Schema
 

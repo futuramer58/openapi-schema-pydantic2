@@ -1,6 +1,6 @@
 from typing import Dict, Optional
 
-from pydantic import BaseModel, Extra
+from pydantic.v1 import BaseModel, Extra
 
 
 class Discriminator(BaseModel):

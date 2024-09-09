@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from pydantic import BaseModel, Extra
+from pydantic.v1 import BaseModel, Extra
 
 
 class ServerVariable(BaseModel):

@@ -1,6 +1,6 @@
 from typing import Dict, Optional, Union
 
-from pydantic import BaseModel, Extra
+from pydantic.v1 import BaseModel, Extra
 
 from .header import Header
 from .link import Link

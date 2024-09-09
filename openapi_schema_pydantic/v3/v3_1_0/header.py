@@ -1,4 +1,5 @@
-from pydantic import Extra, Field
+from typing import Any
+from pydantic.v1 import Extra, Field
 
 from .parameter import Parameter
 
@@ -13,8 +14,8 @@ class Header(Parameter):
        (for example, [`style`](#parameterStyle)).
     """
 
-    name = Field(default="", const=True)
-    param_in = Field(default="header", const=True, alias="in")
+    name: Any = Field(default="", frozen=True)
+    param_in: Any = Field(default="header", frozen=True, alias="in")
 
     class Config:
         extra = Extra.ignore

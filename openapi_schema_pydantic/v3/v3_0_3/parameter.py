@@ -1,6 +1,6 @@
 from typing import Any, Dict, Optional, Union
 
-from pydantic import BaseModel, Field, Extra
+from pydantic.v1 import BaseModel, Field, Extra
 
 from .example import Example
 from .media_type import MediaType

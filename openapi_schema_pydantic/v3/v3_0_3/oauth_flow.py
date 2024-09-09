@@ -1,6 +1,6 @@
 from typing import Dict, Optional, Union
 
-from pydantic import AnyUrl, BaseModel, Extra
+from pydantic.v1 import AnyUrl, BaseModel, Extra
 
 
 class OAuthFlow(BaseModel):

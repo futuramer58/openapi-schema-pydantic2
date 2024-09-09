@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional, Union
 
-from pydantic import BaseModel, Extra
+from pydantic.v1 import BaseModel, Extra
 
 from .components import Components
 from .external_documentation import ExternalDocumentation
